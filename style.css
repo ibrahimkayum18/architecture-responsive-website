@@ -1,4 +1,8 @@
 /* Universal selectors */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: 'Work Sans', sans-serif;    
 }
@@ -12,6 +16,14 @@ body{
 }
 .light-gray{
     color: #727272;
+}
+.btn-primary{
+    padding: 20px 25px;
+    color: white;
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    border: 0;
+    border-radius: 8px;
 }
 
 /* Header Style Started */
@@ -42,3 +54,21 @@ li a{
 }
 
 /* Banner Section Style */
+
+.banner-text{
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-text p{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.banner-img img{
+    width: 100%;
+    margin-top: 20px;
+}
